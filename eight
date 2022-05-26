@@ -1,0 +1,5 @@
+tir = int(input('год: '))
+if tir == 2028 or tir == 2024 or tir == 2020 or tir == 2016 or tir == 2012 or tir == 2008 or tir == 2004 or tir == 2000 or tir == 1996 or tir == 1992:
+  print('високосные')
+else:
+  print('обычный')
